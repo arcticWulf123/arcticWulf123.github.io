@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Code icon with floating geometric shapes">
+  <!-- Outer dashed rotating ring -->
+  <circle cx="200" cy="200" r="190" fill="none" stroke="#E67E22" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- Inner counter-rotating dashed ring (faint blue) -->
+  <circle cx="200" cy="200" r="168" fill="none" stroke="#3498DB" stroke-width="1" stroke-dasharray="4 8" opacity="0.3"/>
+
+  <!-- Main dark circle -->
+  <circle cx="200" cy="200" r="160" fill="#2C3E50"/>
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.1"/>
+
+  <!-- Code icon </> -->
+  <text x="200" y="232" font-family="'JetBrains Mono', 'Courier New', monospace"
+        font-size="100" font-weight="700" text-anchor="middle"
+        fill="#F1C40F" letter-spacing="-5">&lt;/&gt;</text>
+
+  <!-- Floating geometric decorations -->
+  <!-- Top-right orange square -->
+  <rect x="335" y="20" width="22" height="22" fill="#F39C12"/>
+
+  <!-- Bottom-left red triangle -->
+  <polygon points="20,355 50,355 35,325" fill="#E74C3C"/>
+
+  <!-- Top-left blue circle (pulsing) -->
+  <circle cx="40" cy="80" r="14" fill="#3498DB"/>
+
+  <!-- Bottom-right yellow diamond -->
+  <rect x="350" y="320" width="20" height="20" fill="#F1C40F" transform="rotate(45 360 330)"/>
+
+  <!-- Right-side small orange dot -->
+  <circle cx="385" cy="200" r="8" fill="#E67E22"/>
+
+  <!-- Top small dark diamond -->
+  <rect x="195" y="8" width="10" height="10" fill="#1A365D" transform="rotate(45 200 13)"/>
+</svg>

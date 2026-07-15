@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Jade Roland Eduard — Front-End Developer">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F5F1E8"/>
+
+  <!-- Decorative background shapes -->
+  <rect x="60" y="80" width="14" height="14" fill="#F1C40F" opacity="0.6" transform="rotate(45 67 87)"/>
+  <circle cx="120" cy="280" r="10" fill="#E67E22" opacity="0.5"/>
+  <rect x="100" y="510" width="18" height="18" fill="#3498DB" opacity="0.35"/>
+  <rect x="1080" y="120" width="14" height="14" fill="#E74C3C" opacity="0.4" transform="rotate(12 1087 127)"/>
+  <circle cx="1050" cy="450" r="8" fill="#1A365D" opacity="0.4"/>
+
+  <!-- Red dot before name -->
+  <circle cx="100" cy="260" r="8" fill="#E74C3C"/>
+
+  <!-- Greeting -->
+  <text x="100" y="245" font-family="'Plus Jakarta Sans', sans-serif"
+        font-size="28" font-weight="500" fill="#5A6C7D">Hi There,</text>
+
+  <!-- Main name -->
+  <text x="100" y="320" font-family="'Plus Jakarta Sans', sans-serif"
+        font-size="80" font-weight="800" fill="#2C3E50" letter-spacing="-2">I'm Jade Roland</text>
+  <text x="100" y="400" font-family="'Plus Jakarta Sans', sans-serif"
+        font-size="80" font-weight="800" fill="#E67E22" letter-spacing="-2">Eduard</text>
+
+  <!-- Tagline -->
+  <text x="100" y="470" font-family="'Plus Jakarta Sans', sans-serif"
+        font-size="32" font-weight="500" fill="#5A6C7D">I'm into Front-End Development &amp; Backend Development</text>
+
+  <!-- URL bar at bottom -->
+  <rect x="0" y="580" width="1200" height="50" fill="#1A365D"/>
+  <text x="100" y="613" font-family="'JetBrains Mono', monospace"
+        font-size="18" font-weight="500" fill="#FFFFFF" opacity="0.85">github.com/arcticWulf123  •  Lorma Colleges  •  BSIT 2025–2029</text>
+</svg>

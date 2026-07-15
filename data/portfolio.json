@@ -1,0 +1,229 @@
+{
+  "owner": {
+    "name": "Jade Roland Eduard",
+    "shortName": "Jade",
+    "lastName": "Eduard",
+    "tagline": "I'm into React & TypeScript",
+    "altTagline": "I'm into Front-End Development",
+    "initials": "JE"
+  },
+  "typingPhrases": {
+    "prefix": "I'm into",
+    "phrases": [
+      "Front-End Development",
+      "Backend Development"
+    ],
+    "accentColor": "#E67E22"
+  },
+  "navigation": {
+    "logo": {
+      "text": "Jade Roland Eduard",
+      "accentDotColor": "#E74C3C"
+    },
+    "items": [
+      { "label": "About", "href": "#about", "index": "01" },
+      { "label": "Education", "href": "#education", "index": "02" },
+      { "label": "Skills", "href": "#skills", "index": "03" },
+      { "label": "Projects", "href": "#projects", "index": "04" },
+      { "label": "Contact", "href": "#contact", "index": "05" }
+    ]
+  },
+  "hero": {
+    "greeting": "Hi There,",
+    "intro": "I'm Jade Roland",
+    "highlightName": "Eduard",
+    "highlightColor": "#E67E22",
+    "tagline": "I'm into React & TypeScript",
+    "useTypingTagline": true,
+    "primaryButton": {
+      "label": "View Projects",
+      "href": "#projects",
+      "variant": "primary"
+    },
+    "secondaryButton": {
+      "label": "Get in Touch",
+      "href": "#contact",
+      "variant": "outline"
+    },
+    "graphic": {
+      "iconSymbol": "</>",
+      "circleBg": "#2C3E50",
+      "iconColor": "#F1C40F",
+      "dashedRing": "#E67E22",
+      "decorations": [
+        { "type": "square", "color": "#F39C12", "position": "top-right" },
+        { "type": "triangle", "color": "#E74C3C", "position": "bottom-left" },
+        { "type": "circle", "color": "#3498DB", "position": "top-left" },
+        { "type": "diamond", "color": "#F1C40F", "position": "bottom-right" }
+      ]
+    }
+  },
+  "techMarquee": {
+    "items": [
+      "Cursor",
+      "Gemini",
+      "Codex",
+      "Notion",
+      "Figma",
+      "GitHub",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "Claude",
+      "ChatGPT"
+    ],
+    "separator": "•",
+    "separatorColor": "#F1C40F",
+    "backgroundColor": "#1A365D"
+  },
+  "about": {
+    "index": "01",
+    "label": "ABOUT",
+    "heading": "Who I am",
+    "paragraphs": [
+      "My path into development started with Java — working through object-oriented design, data structures, and building complete client-server systems from the ground up. That experience taught me how to think through problems methodically, which I now bring into front-end development as I learn HTML, CSS, and JavaScript.",
+      "I like building things that are both functional and thoughtfully designed, and this portfolio reflects where that journey currently stands — with more to come as my skills grow."
+    ],
+    "socials": [
+      { "name": "GitHub", "href": "https://github.com/arcticWulf123", "icon": "github" },
+      { "name": "Instagram", "href": "https://www.instagram.com/jaderolandeduard56?igsh=MTl3Z2dyb3BidXBhaQ==", "icon": "instagram" },
+      { "name": "Facebook", "href": "https://www.facebook.com/share/1CHhuA9hQ3/", "label": "facebook.com/jade", "icon": "facebook" }
+    ]
+  },
+  "education": {
+    "index": "02",
+    "label": "EDUCATION",
+    "heading": "Where I study",
+    "underlineColor": "#F1C40F",
+    "items": [
+      {
+        "institution": "Lorma Colleges",
+        "degree": "Bachelor of Science in Information Technology",
+        "shortCourse": "Information Technology",
+        "startYear": 2025,
+        "endYear": 2029,
+        "status": "Currently studying",
+        "description": "Pursuing a four-year BSIT program covering programming fundamentals, web development, database systems, networking, and software engineering. Building a strong foundation in both front-end and back-end development while actively building personal projects on the side.",
+        "accentColor": "#E67E22",
+        "iconBg": "#FED7AA",
+        "highlights": [
+          "Object-Oriented Programming",
+          "Data Structures and Algorithms",
+          "Web Development",
+          "Software Engineering"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "index": "03",
+    "label": "SKILLS",
+    "heading": "What I work with",
+    "underlineColor": "#F1C40F",
+    "categories": [
+      {
+        "name": "HTML",
+        "iconColor": "#F1C40F",
+        "iconBg": "#FEF3C7",
+        "items": ["Semantic markup", "Accessibility", "Forms", "SEO structure"]
+      },
+      {
+        "name": "CSS",
+        "iconColor": "#E67E22",
+        "iconBg": "#FED7AA",
+        "items": ["Flexbox", "Grid", "Animations", "Responsive design"]
+      },
+      {
+        "name": "JavaScript",
+        "iconColor": "#E74C3C",
+        "iconBg": "#FECACA",
+        "items": ["DOM manipulation", "Fetch API", "ES6+", "Event handling"]
+      },
+      {
+        "name": "Java",
+        "iconColor": "#1A365D",
+        "iconBg": "#DBEAFE",
+        "items": ["OOP", "Data structures", "Algorithms", "CLI apps"]
+      }
+    ]
+  },
+  "projects": {
+    "index": "04",
+    "label": "PROJECTS",
+    "heading": "Selected work",
+    "items": [
+      {
+        "title": "QuickCalc",
+        "year": "2025",
+        "yearColor": "#E74C3C",
+        "description": "A clean, browser-based calculator built with vanilla HTML, CSS, and JavaScript. Supports chained operations, keyboard input, decimal handling, and a responsive button grid — no frameworks, no build step, just the web platform.",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "codeUrl": "https://github.com/arcticWulf123/oop-2026/tree/main/activity15",
+        "liveUrl": "https://github.com/arcticWulf123/oop-2026/tree/main/activity15"
+      },
+      {
+        "title": "RPS Showdown",
+        "year": "2024",
+        "yearColor": "#E67E22",
+        "description": "A terminal-based Rock-Paper-Scissors game built in Java using object-oriented principles. Clean class separation between Player, CPU, Round, and GameLoop — supports best-of-N matches, score tracking, round history, and replay — all playable from the command line.",
+        "tags": ["Java", "OOP", "CLI"],
+        "codeUrl": "https://github.com/arcticWulf123/Maven/tree/main/roshambopvp",
+        "liveUrl": "https://github.com/arcticWulf123/Maven/tree/main/roshambopvp"
+      },
+      {
+        "title": "Sim Trio",
+        "year": "2024",
+        "yearColor": "#F1C40F",
+        "description": "A menu-driven Java program that bundles three simulations into one CLI app — a grocery checkout with cart totals and change calculation, a movie ticket booking with seat selection and pricing tiers, and a multiple-choice quiz with scoring. One entry point, three modes, all in the terminal.",
+        "tags": ["Java", "CLI", "Menu-driven"],
+        "codeUrl": "https://github.com/arcticWulf123/datastruc-2026-1st-sem/tree/main/final%20program",
+        "liveUrl": "https://github.com/arcticWulf123/datastruc-2026-1st-sem/tree/main/final%20program"
+      },
+      {
+        "title": "TermiLock",
+        "year": "2023",
+        "yearColor": "#1A365D",
+        "description": "A terminal-based password manager for social accounts. Supports adding, viewing, and deleting entries stored in an AES-encrypted JSON file — all from the command line.",
+        "tags": ["Java"],
+        "codeUrl": "https://github.com/arcticWulf123/Maven/tree/main/TermiLock",
+        "liveUrl": "https://github.com/arcticWulf123/Maven/tree/main/TermiLock"
+      }
+    ]
+  },
+  "contact": {
+    "index": "05",
+    "label": "CONTACT",
+    "heading": "Let's build something great.",
+    "subtext": "Available for freelance projects and full-time roles. I'm especially interested in design system work, complex UIs, and developer tooling.",
+    "backgroundColor": "#1A365D",
+    "textColor": "#FFFFFF",
+    "links": [
+      { "label": "github.com/arcticWulf123", "href": "https://github.com/arcticWulf123", "icon": "github" },
+      { "label": "instagram.com/jaderolandeduard56", "href": "https://www.instagram.com/jaderolandeduard56?igsh=MTl3Z2dyb3BidXBhaQ==", "icon": "instagram" },
+      { "label": "facebook.com/jade", "href": "https://www.facebook.com/share/1CHhuA9hQ3/", "icon": "facebook" }
+    ],
+    "email": {
+      "label": "jaderolandeduard56@gmail.com",
+      "href": "mailto:jaderolandeduard56@gmail.com",
+      "buttonColor": "#E67E22"
+    }
+  },
+  "footer": {
+    "builtBy": "Built by Jade Roland Eduard",
+    "year": "2025",
+    "credit": "Designed & built with care",
+    "heartColor": "#E74C3C"
+  },
+  "theme": {
+    "background": "#F5F1E8",
+    "textPrimary": "#2C3E50",
+    "textSecondary": "#5A6C7D",
+    "accentOrange": "#E67E22",
+    "accentRed": "#E74C3C",
+    "accentYellow": "#F1C40F",
+    "darkBlue": "#1A365D",
+    "darkerBlue": "#1E3A8A",
+    "lightBlue": "#3498DB"
+  }
+}

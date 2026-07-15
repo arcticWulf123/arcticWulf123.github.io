@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Jade Roland Eduard — front-end and backend developer." />
+  <title>Jade Roland Eduard — Developer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <!-- ============== HEADER ============== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span class="logo-text" data-field="navigation.logo.text">Jade Roland Eduard</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <!-- populated by JS -->
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg class="icon-menu" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <nav class="nav-mobile" id="navMobile" aria-label="Mobile navigation">
+      <!-- populated by JS -->
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============== HERO ============== -->
+    <section class="hero section" id="top">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <span class="shape shape-1"></span>
+        <span class="shape shape-2"></span>
+        <span class="shape shape-3"></span>
+        <span class="shape shape-4"></span>
+        <span class="shape shape-5"></span>
+        <span class="shape shape-6"></span>
+        <span class="shape shape-7"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-greeting" data-field="hero.greeting">Hi There,</p>
+          <h1 class="hero-title">
+            <span class="hero-intro" data-field="hero.intro">I'm Jade Roland</span>
+            <span class="hero-name" data-field="hero.highlightName">Eduard</span>
+          </h1>
+          <div class="hero-typing">
+            <span class="typing-prefix">I'm into</span>
+            <span class="typing-text" id="typingText"></span><span class="typing-cursor" aria-hidden="true"></span>
+          </div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-field="hero.primaryButton.label">View Projects
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-outline" data-field="hero.secondaryButton.label">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Get in Touch
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-graphic" aria-hidden="true">
+          <div class="ring-outer"></div>
+          <div class="ring-inner"></div>
+          <span class="deco deco-square"></span>
+          <span class="deco deco-triangle"></span>
+          <span class="deco deco-circle"></span>
+          <span class="deco deco-diamond"></span>
+          <span class="deco deco-dot"></span>
+          <span class="deco deco-square-sm"></span>
+          <div class="hero-circle">
+            <span class="hero-code-icon">&lt;/&gt;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== TECH MARQUEE ============== -->
+    <section class="marquee-section" aria-label="Technology stack">
+      <div class="marquee-track" id="marqueeTrack">
+        <!-- duplicated by JS for seamless loop -->
+      </div>
+      <div class="marquee-fade marquee-fade-left"></div>
+      <div class="marquee-fade marquee-fade-right"></div>
+    </section>
+
+    <!-- ============== ABOUT ============== -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-head">
+          <p class="section-index"><span data-field="about.index">01</span> — <span data-field="about.label">ABOUT</span></p>
+          <h2 class="section-title underlined" data-field="about.heading">Who I am</h2>
+        </div>
+        <div class="about-body">
+          <div class="about-text" id="aboutParagraphs">
+            <!-- paragraphs populated by JS -->
+          </div>
+          <div class="socials" id="aboutSocials">
+            <!-- populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== EDUCATION ============== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-index"><span data-field="education.index">02</span> — <span data-field="education.label">EDUCATION</span></p>
+          <h2 class="section-title underlined" data-field="education.heading">Where I study</h2>
+        </div>
+        <div class="education-cards" id="educationCards">
+          <!-- populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== SKILLS ============== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-index"><span data-field="skills.index">03</span> — <span data-field="skills.label">SKILLS</span></p>
+          <h2 class="section-title underlined" data-field="skills.heading">What I work with</h2>
+        </div>
+        <div class="skills-grid" id="skillsGrid">
+          <!-- populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== PROJECTS ============== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-index"><span data-field="projects.index">04</span> — <span data-field="projects.label">PROJECTS</span></p>
+          <h2 class="section-title underlined" data-field="projects.heading">Selected work</h2>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+          <!-- populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CONTACT ============== -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-bg-shapes" aria-hidden="true">
+        <span class="cshape cshape-1"></span>
+        <span class="cshape cshape-2"></span>
+        <span class="cshape cshape-3"></span>
+        <span class="cshape cshape-4"></span>
+      </div>
+      <div class="container contact-inner">
+        <p class="section-index light"><span data-field="contact.index">05</span> — <span data-field="contact.label">CONTACT</span></p>
+        <h2 class="contact-heading" data-field="contact.heading">Let's build something great.</h2>
+        <p class="contact-subtext" data-field="contact.subtext"></p>
+
+        <div class="contact-grid">
+          <div class="contact-links" id="contactLinks">
+            <!-- populated by JS -->
+          </div>
+          <div class="contact-email-wrap">
+            <a href="#" class="btn-email" id="contactEmail">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span class="email-label"></span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-text">Built by Jade Roland Eduard • 2025</p>
+      <p class="footer-text">
+        Designed &amp; built with
+        <svg class="heart" viewBox="0 0 24 24" width="14" height="14" fill="#E74C3C" stroke="#E74C3C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        care
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../js/script.js" defer></script>
+</body>
+</html>
