@@ -1,7 +1,7 @@
 /* ============================================================
    Jade Roland Eduard — Portfolio
    Static JS (no build step required)
-   Loads data from ../data/portfolio.json and renders the page.
+   Loads data from ./data/portfolio.json and renders the page.
    ============================================================ */
 
 (() => {
@@ -299,7 +299,7 @@
     // Fetch the JSON data
     let data;
     try {
-      const res = await fetch("../data/portfolio.json", { cache: "no-cache" });
+      const res = await fetch("./data/portfolio.json", { cache: "no-cache" });
       if (!res.ok) throw new Error("HTTP " + res.status);
       data = await res.json();
     } catch (err) {
