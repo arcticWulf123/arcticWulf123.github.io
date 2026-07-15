@@ -122,8 +122,12 @@
     const sep = m.separator || "•";
     const buildItem = (item) =>
       `<span class="marquee-item"><span class="label">${esc(item)}</span><span class="dot" style="color:${esc(sepColor)}">${esc(sep)}</span></span>`;
-    // Duplicate twice for seamless -50% loop
-    track.innerHTML = (m.items.map(buildItem).join("")) + (m.items.map(buildItem).join(""));
+    // Duplicate 4 times for seamless -25% loop.
+    // One set of 12 items (~1200px) is narrower than most viewports,
+    // so at the -25% loop point we still have 3 full copies visible
+    // (3600px+), which covers any viewport up to 3600px with no gap.
+    const oneSet = m.items.map(buildItem).join("");
+    track.innerHTML = oneSet + oneSet + oneSet + oneSet;
   }
 
   function renderAbout(about) {
